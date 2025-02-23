@@ -20,6 +20,14 @@ public class Main {
         printCalculator();
         System.out.println("Enter numbers and choose operations (+, -, *, /). OR Enter -1 to stop.");
         double result = 0;
+        System.out.print("Enter a number: ");
+        double num = input.nextDouble();
+        while (num != -1) {
+            System.out.print("Enter operation (+, -, *, /): ");
+            char operation = input.next().charAt(0);
+            System.out.print("Enter a number: ");
+            num = input.nextDouble();
 
+        }
     }
 }
