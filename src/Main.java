@@ -18,7 +18,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
         System.out.println("---- Calculator ----");
         printCalculator();
-        System.out.println("Enter numbers and choose operations (+, -, *, /). Enter -1 to stop.");
+        System.out.println("Enter numbers and choose operations (+, -, *, /). OR Enter -1 to stop.");
         double result = 0;
 
     }
